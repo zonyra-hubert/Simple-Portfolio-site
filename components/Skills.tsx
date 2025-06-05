@@ -5,6 +5,7 @@ const skills = [
   { name: "React", value: 80 },
   { name: "Next.Js", value: 80 },
   { name: "TypeScript", value: 70 },
+  { name: "ExpressJs", value: 70 },
 
   { name: "REST/RESTful APIs", value: 80 },
   { name: "Git", value: 90 },
