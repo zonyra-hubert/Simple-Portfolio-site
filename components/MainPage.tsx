@@ -1,3 +1,5 @@
+/* The above code is a TypeScript React component for a personal portfolio website. It consists of two
+main sections: the Sidebar and the Scrollable Content. */
 "use client";
 import Image from "next/image";
 import hubert from "../assets/hubert2.jpg";
@@ -50,9 +52,9 @@ const MainPage = () => {
           <h2 className="font-bold text-lg">
             <Typewriter
               words={[
-                "Frontend Engineer",
-                "FullStack Web Developer",
-                "React & Next.js Enthusiast",
+                "Software Engineer",
+
+                "React & Next.js, ExpressJs, Mongodb",
               ]}
               loop={true}
               cursor
