@@ -12,7 +12,7 @@ import SkillBars from "./Skills";
 import Experience from "./Experience";
 import ContactPage from "./ContactME";
 import { motion } from "framer-motion";
-import Edditer from "./Edditer";
+// import Edditer from "./Edditer";
 import { useRef } from "react";
 
 const fadeIn = {
@@ -53,7 +53,6 @@ const MainPage = () => {
             <Typewriter
               words={[
                 "Software Engineer",
-
                 "React & Next.js, ExpressJs, Mongodb",
               ]}
               loop={true}
@@ -184,7 +183,7 @@ const MainPage = () => {
             <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
             <CircleLne />
             <ContactPage />
-            <Edditer />
+            {/* <Edditer /> */}
           </div>
         </div>
       </motion.div>
