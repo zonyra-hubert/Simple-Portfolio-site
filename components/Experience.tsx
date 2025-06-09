@@ -1,3 +1,5 @@
+import Edditer from "./Edditer";
+
 const Experience = () => {
   return (
     <section className="bg-[#1c2b3a] text-white py-10 px-6">
@@ -5,7 +7,9 @@ const Experience = () => {
         {/* Job 1 */}
         <div className="flex items-start gap-4">
           <div>
-            <h3 className="text-xl font-bold">Frontend Engineer Intern</h3>
+            <h3 className="text-xl font-bold">
+              <span>•</span> Frontend Engineer Intern
+            </h3>
             <p className="text-sm text-gray-300 mb-2">
               Fihankra Comtech LLC • <span>2024 March – 2024 May</span>
             </p>
@@ -21,6 +25,24 @@ const Experience = () => {
               internship strengthened my frontend development skills and kept me
               current with modern web technologies like Zod for validation and
               seamless UI animations.
+            </p>
+            <h3 className="text-xl font-bold mt-4">
+              <span>•</span> Ecommerce Website with Next.js
+            </h3>
+            <p className="mt-1">
+              Having completed the Ultimate Next.js course, I have gained
+              comprehensive expertise in full-stack web development,
+              specifically in building production-grade e-commerce applications.
+              This course equipped me with over 25 hours of in-depth training,
+              where I mastered cutting-edge technologies such as Next.js, Stripe
+              for secure payment processing, and Tailwind CSS for rapid UI
+              development. I successfully implemented advanced features like
+              AI-powered search with Algolia, authentication using Next Auth V5,
+              and efficient state management with Zustand. My hands-on
+              experience includes developing an intuitive admin dashboard and a
+              seamless front-end shopping experience, demonstrating my ability
+              to integrate modern best practices and deliver high-quality,
+              scalable web solutions. <Edditer />
             </p>
           </div>
         </div>
