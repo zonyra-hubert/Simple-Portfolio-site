@@ -18,6 +18,7 @@ export default function HeroSection({contactMeRef}:{contactMeRef:unknown}   ) {
 
 
     const scroll = () => {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-expect-error
         contactMeRef.current?.scrollIntoView({ behavior: "smooth" });
     };
