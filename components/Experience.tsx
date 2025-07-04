@@ -26,10 +26,10 @@ const Experience = () => {
               current with modern web technologies like Zod for validation and
               seamless UI animations.
             </p>
-            <h3 className="text-xl font-bold mt-4">
+            <h3 className="text-xl font-bold mt-4 mb-1">
               <span>•</span> Ecommerce Website with Next.js
             </h3>
-            <p className="mt-1">
+            {/*<p className="mt-1">*/}
               Having completed the Ultimate Next.js course, I have gained
               comprehensive expertise in full-stack web development,
               specifically in building production-grade e-commerce applications.
@@ -43,7 +43,7 @@ const Experience = () => {
               seamless front-end shopping experience, demonstrating my ability
               to integrate modern best practices and deliver high-quality,
               scalable web solutions. <Edditer />
-            </p>
+            {/*</p>*/}
           </div>
         </div>
 
