@@ -18,7 +18,7 @@ export default function HeroSection({contactMeRef}:{contactMeRef:unknown}   ) {
 
 
     const scroll = () => {
-        // @ts-ignore
+        // @ts-expect-error
         contactMeRef.current?.scrollIntoView({ behavior: "smooth" });
     };
 
