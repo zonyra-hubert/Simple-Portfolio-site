@@ -42,17 +42,11 @@ const MainPage = () => {
               transition={{ delay: 0.3 }}
               className="pl-4"
             >
-              I&rsquo;m a passionate and detail-oriented Frontend Engineer and
-              Full-Stack Web Developer with a strong foundation in modern web
-              technologies. I specialize in building responsive,
-              high-performance web applications using React, Next.js, Tailwind
-              CSS, and TypeScript. My goal is to craft clean, efficient code and
-              intuitive user experiences that bring real value to users and
-              businesses alike. With a continuous learning mindset, I stay up to
-              date with the latest industry trends and best practices. Whether
-              working independently or collaboratively, I bring a
-              problem-solving attitude and a deep commitment to delivering
-              quality work on time.
+              Results-driven Frontend Engineer and Full-Stack Developer currently pursuing a degree in Computer Science.
+ Specializing in architecting high-performance web applications using the modern tech stack: React, Next.js, Tailwind
+ CSS, and TypeScript, Express. Committed to crafting clean, efficient code that drives intuitive user experiences and
+ measurable business value. Proven problem-solver focused on continuous learning and applying industry best
+ practices.
             </motion.p>
           </section>
           <section>

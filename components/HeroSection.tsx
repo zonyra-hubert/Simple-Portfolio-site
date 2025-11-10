@@ -8,7 +8,7 @@ import {FaTwitter} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {Typewriter} from "react-simple-typewriter";
 
-import hubert from "../assets/hubert2.jpg";
+import hubert from "../assets/hubert.jpg";
 
 const fadeIn = {
     hidden: { opacity: 0, y: 20 },
