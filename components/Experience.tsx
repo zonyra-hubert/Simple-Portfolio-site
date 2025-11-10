@@ -42,7 +42,27 @@ const Experience = () => {
               experience includes developing an intuitive admin dashboard and a
               seamless front-end shopping experience, demonstrating my ability
               to integrate modern best practices and deliver high-quality,
-              scalable web solutions. <Edditer />
+              scalable web solutions. 
+            {/*</p>*/}
+          </div>
+        </div>
+        
+            <h3 className="text-xl font-bold mt-4 mb-1">
+              <span>•</span>   Agricultural Marketplace
+            </h3>
+            {/*<p className="mt-1">*/}
+            
+             Noticing some gaps in cultivating and selling of farm produce in Ghana I developed this
+ webapp to bridge that gap:
+ Full-stack marketplace (Next.js, React, TypeScript, Node/Express) connecting farmers,
+ suppliers, and buyers.<br/>
+Implemented REST API, JWT authentication & role
+based access control; integrated payments(Paystack), image uploads (Cloudinary), and notifications (email/SMS).
+ Built responsive UI, client state management, product search, wishlist, cart, and profile
+ management.<br/>
+ Used PostgreSQL/Prisma for data modeling and deployments to Vercel (serverless functions),
+ with environment variable and CORS configuration.
+ https://agricultural-marketplace-nu.vercel.app/<Edditer />
             {/*</p>*/}
           </div>
         </div>
