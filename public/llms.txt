@@ -1,0 +1,26 @@
+# Hubert Zonyra
+
+> Hubert Zonyra is a Frontend Engineer at Jampolls and a full-stack web developer based in Accra, Ghana. He studies Computer Science at the University of Ghana and is open to frontend, full-stack and freelance work.
+
+## About
+- Role: Frontend Engineer at Jampolls (February 2026 – present); previously Frontend Engineer Intern at Fihankra Comtech LLC.
+- Location: Accra, Ghana (works remotely).
+- Languages: English, Ewe.
+- Contact: danielshubert9@gmail.com, or the contact form on the site.
+
+## Skills
+- Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS, Framer Motion, HTML, CSS.
+- Backend: Node.js, Express, Python, Django, PostgreSQL, Prisma, MongoDB, Zod, REST APIs.
+- Tools: Git, GitHub, Docker, Vercel, Railway, Linux, Jira, Linear, Plane, VS Code.
+
+## Projects
+- AgroMarket: full-stack marketplace connecting farmers, suppliers and buyers in Ghana (JWT auth, role-based access, Paystack, Cloudinary). https://agricultural-marketplace-nu.vercel.app/
+- hubstore: e-commerce platform with Stripe checkout, Algolia search, NextAuth v5, Zustand and an admin dashboard.
+- sakai watch: Telegram bot that monitors University of Ghana Sakai via GitHub Actions and sends alerts for announcements, assignments, grades, quizzes, files and deadlines.
+- Sakai MCP server: TypeScript Model Context Protocol server that lets AI assistants read Sakai courses, assignments, announcements, calendars and files, and submit assignments with explicit confirmation.
+
+## Links
+- GitHub: https://github.com/zonyra-hubert
+- LinkedIn: https://linkedin.com/in/zonyra-hubert
+- X: https://twitter.com/ZonyraHubert
+- Résumé: /Resume.pdf

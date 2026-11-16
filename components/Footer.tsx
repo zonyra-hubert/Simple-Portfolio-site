@@ -32,7 +32,7 @@ export default function Footer() {
               href={href}
               aria-label={label}
               {...(href.startsWith("http")
-                ? { target: "_blank", rel: "noopener noreferrer" }
+                ? { target: "_blank", rel: "me noopener noreferrer" }
                 : {})}
               className="flex h-7 w-7 items-center justify-center border-2 border-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-charcoal"
             >

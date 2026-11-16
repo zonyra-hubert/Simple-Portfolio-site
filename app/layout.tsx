@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans, Raleway } from "next/font/google";
+import { seo, siteUrl } from "@/components/site";
+import { profile } from "@/components/content";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -21,11 +23,53 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Hubert | Portfolio",
-  description: "Zonyra Hubert - Frontend Engineer & Full-Stack Developer",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: seo.title,
+    template: `%s | ${seo.shortTitle}`,
+  },
+  description: seo.description,
+  keywords: seo.keywords,
+  applicationName: seo.shortTitle,
+  authors: [{ name: profile.name, url: siteUrl }],
+  creator: profile.name,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "profile",
+    url: "/",
+    siteName: seo.shortTitle,
+    title: seo.title,
+    description: seo.description,
+    locale: "en_GB",
+    firstName: profile.firstName,
+    lastName: "Zonyra",
+    username: "zonyra-hubert",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: seo.title,
+    description: seo.description,
+    creator: "@ZonyraHubert",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   icons: {
     icon: "/profile1.jpg", // Path relative to /public
+    apple: "/profile1.jpg",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0b0b0b",
 };
 
 export default function RootLayout({

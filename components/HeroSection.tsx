@@ -34,9 +34,9 @@ export default function HeroSection() {
             </p>
           </HeroIn>
           <HeroIn delay={0.35}>
-            <h1 className="mt-1 font-display text-2xl font-semibold uppercase tracking-wide">
+            <p className="mt-1 font-display text-2xl font-semibold uppercase tracking-wide">
               I&apos;m a developer
-            </h1>
+            </p>
           </HeroIn>
           <ZigzagDivider className="mt-4 [&>span]:w-8" />
           <HeroIn delay={0.55}>
